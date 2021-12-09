@@ -21,5 +21,7 @@ public class Launcher {
                 System.out.print("Message sent.");
             }
         }while(!lu.equals("q") );
+        System.out.print("Bye bye have a nice day.");
+
     }
 }
