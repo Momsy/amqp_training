@@ -15,6 +15,6 @@ public class ChatMessageRepository {
 
 
     public List<String> getLastTenMessages() {
-        return messageList.subList(Math.max(messageList.size() - 11, 0), messageList.size());
+        return messageList.subList(Math.max(messageList.size() - 10, 0), messageList.size());
     }
 }
